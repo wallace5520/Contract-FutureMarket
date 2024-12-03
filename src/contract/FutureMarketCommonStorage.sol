@@ -31,9 +31,6 @@ abstract contract FutureMarketCommonStorage {
         uint256 claimedAmount
     );
 
-    uint8 internal constant IMAGE_TYPE_SINGLE = 0;
-    uint8 internal constant IMAGE_TYPE_MULIT = 1;
-
     string public baseURI;
     
 
